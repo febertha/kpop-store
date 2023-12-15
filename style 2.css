@@ -1,0 +1,128 @@
+* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    width: auto;
+    height: 75px;
+    background-color: rgb(3, 212, 3);
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+    box-shadow: 0 5px 50px 0 rgba(0, 0, 0,0.5);
+    font-weight: bold;
+    overflow: hidden;
+    transition: top 0.3s;
+
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation li{
+    list-style-type: none;
+    padding: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navigation a{
+    text-decoration: none;
+    color: #F0EBE3;
+    font-weight: 900;
+}
+
+.navigation li a:hover {
+    color: darkgreen;
+    transition: all .5s ease-in-out;
+}
+
+.navigation a:hover {
+    color: darkgreen;
+    transition: all .5s ease-in-out;
+}
+
+.active{
+    background-color: #00000042;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.active:hover{
+    color: #F0EBE3;
+}
+
+.backgroundvideo{
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.header{
+    padding: 60px;
+    display: flex;
+    margin: auto;
+    padding-right: 300px;
+    margin-left: 200px;
+    padding-top: 200px;
+}
+
+.header .isi{
+    display: flexbox;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    padding-left: 0px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.galeri{
+    border: 1px;
+    padding:100px;
+    width: 150vh;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.galeri img{
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+    position: relative;
+    border-radius: 150px;
+}
+
+.footer{
+    color: #ffffff;
+    padding-top: 1%;
+    height: 30%;
+    margin-top: 180px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(3, 212, 3);
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F0EBE3;
+    width: 100%;
+    margin: auto;
+    margin-left: auto;
+    text-align: center;
+}

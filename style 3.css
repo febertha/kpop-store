@@ -1,0 +1,183 @@
+* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(bg\ about\ us.jpeg);
+    background-size: 1600px;
+    background-repeat: repeat;
+}
+
+.navbar{
+    width: auto;
+    height: 75px;
+    background-color: rgb(3, 212, 3);
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+    box-shadow: 0 5px 50px 0 rgba(0, 0, 0,0.5);
+    font-weight: bold;
+    overflow: hidden;
+
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation li{
+    list-style-type: none;
+    padding: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navigation a{
+    text-decoration: none;
+    color: #F0EBE3;
+    font-weight: 900;
+}
+
+.navigation li a:hover {
+    color: darkgreen;
+    transition: all .5s ease-in-out;
+}
+
+.navigation a:hover {
+    color: darkgreen;
+    transition: all .5s ease-in-out;
+}
+
+.active{
+    background-color: #00000042;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.active:hover{
+    color: #F0EBE3;
+}
+
+.header1{
+    padding: 60px;
+    display: flex;
+    margin: auto;
+    padding-right: 100px;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.header1 .deskripsi1{
+    display: flexbox;
+    margin: auto;
+    text-transform: capitalize;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-left: 10vh;
+    color: rgb(0, 0, 0);
+    
+}
+
+.header2{
+    padding: 60px;
+    display: flex;
+    margin: auto;
+    padding-right: 100px;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.header2 .deskripsi2{
+    display: flexbox;
+    margin: auto;
+    text-transform: capitalize;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-left: 10vh;
+    color: white;
+    
+}
+
+.header3{
+    padding: 60px;
+    display: flex;
+    margin: auto;
+    padding-right: 100px;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.header3 .deskripsi3{
+    display: flexbox;
+    margin: auto;
+    text-transform: capitalize;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-left: 10vh;
+    color: #000000;
+    
+}
+
+.header4{
+    padding: 60px;
+    display: flex;
+    margin: auto;
+    padding-right: 100px;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.header4 .deskripsi4{
+    display: flexbox;
+    margin: auto;
+    text-transform: capitalize;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-left: 10vh;
+    color: white;
+    
+}
+
+.header5{
+    padding: 60px;
+    display: flex;
+    margin: auto;
+    padding-right: 100px;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.header5 .deskripsi5{
+    display: flexbox;
+    margin: auto;
+    text-transform: capitalize;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-left: 10vh;
+    color: #000000;
+    
+}
+
+.footer{
+    color: #ffffff;
+    padding-top: 1%;
+    height: 30%;
+    margin-top: 180px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(3, 212, 3);
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F0EBE3;
+    width: 100%;
+    margin: auto;
+    margin-left: auto;
+    text-align: center;
+}
